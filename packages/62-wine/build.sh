@@ -22,7 +22,7 @@ CONFIGURE_ARGS="--enable-archs=i386,x86_64 \
 				--with-opengl \
 				--without-osmesa \
 				--with-gnutls \
-				--without-usb \
+				--with-usb \
 				--without-sdl \
 				--without-cups \
 				--without-netapi \
@@ -34,5 +34,5 @@ CONFIGURE_ARGS="--enable-archs=i386,x86_64 \
 				--without-opencl \
 				--without-dbus \
 				--without-sane \
-				--without-udev \
+				--with-udev \
 				--without-capi"
