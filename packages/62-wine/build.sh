@@ -1,4 +1,4 @@
-GIT_URL=https://github.com/WINDROID-EMU/Windroid-wine
+GIT_URL=https://github.com/KreitinnSoftware/wine
 BLACKLIST_ARCHITECTURE=aarch64
 HOST_BUILD_CONFIGURE_ARGS="--enable-win64 --without-x"
 HOST_BUILD_FOLDER="$INIT_DIR/workdir/$package/wine-tools"
@@ -22,7 +22,7 @@ CONFIGURE_ARGS="--enable-archs=i386,x86_64 \
 				--with-opengl \
 				--without-osmesa \
 				--with-gnutls \
-				--with-usb \
+				--without-usb \
 				--without-sdl \
 				--without-cups \
 				--without-netapi \
@@ -34,5 +34,5 @@ CONFIGURE_ARGS="--enable-archs=i386,x86_64 \
 				--without-opencl \
 				--without-dbus \
 				--without-sane \
-				--with-udev \
+				--without-udev \
 				--without-capi"
