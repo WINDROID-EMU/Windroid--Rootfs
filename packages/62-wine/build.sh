@@ -1,5 +1,4 @@
-GIT_URL=https:https://gitlab.winehq.org/wine/wine
-GIT_COMMIT=fd5e16ad2e3ab2d9158fe4fbfddf67e3495ec341
+GIT_URL=https://github.com/KreitinnSoftware/wine
 BLACKLIST_ARCHITECTURE=aarch64
 HOST_BUILD_CONFIGURE_ARGS="--enable-win64 --without-x"
 HOST_BUILD_FOLDER="$INIT_DIR/workdir/$package/wine-tools"
