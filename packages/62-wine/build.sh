@@ -1,4 +1,4 @@
-https://gitlab.winehq.org/wine/wine 
+https://github.com/wine-mirror/wine
  BLACKLIST_ARCHITECTURE=aarch64 
  HOST_BUILD_CONFIGURE_ARGS="--enable-win64 --without-x" 
  HOST_BUILD_FOLDER="$INIT_DIR/workdir/$package/wine-tools" 
