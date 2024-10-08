@@ -1,4 +1,4 @@
-GIT_URL=https://github.com/ValveSoftware/Proton
+GIT_URL=https://github.com/WINDROID-EMU/Windroid-wine
  BLACKLIST_ARCHITECTURE=aarch64 
  HOST_BUILD_CONFIGURE_ARGS="--enable-win64 --without-x" 
  HOST_BUILD_FOLDER="$INIT_DIR/workdir/$package/wine-tools" 
