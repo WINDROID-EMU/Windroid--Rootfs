@@ -1,5 +1,5 @@
 GIT_URL=https://gitlab.freedesktop.org/mesa/mesa
-GIT_COMMIT=ed64ecc
+GIT_COMMIT=f54748ea388632a12baeeff5fe9f7dc623e39a7a
 LDFLAGS="-L$PREFIX/lib -landroid-shmem"
 
 getVulkanDrivers() {
