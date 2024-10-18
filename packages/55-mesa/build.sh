@@ -1,6 +1,6 @@
 PKG_VER=[gss]
 GIT_URL=https://gitlab.freedesktop.org/mesa/mesa
-GIT_COMMIT=f54748ea388632a12baeeff5fe9f7dc623e39a7a
+GIT_COMMIT=d52a9d832e53b771c898b6ea1d223f7d68767d9a
 LDFLAGS="-L$PREFIX/lib -landroid-shmem"
 
 getVulkanDrivers() {
